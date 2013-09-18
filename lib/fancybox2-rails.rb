@@ -1,3 +1,1 @@
-if defined? Rails && Rails::VERSION::MAJOR == 3 && Rails::VERSION::MINOR >= 1
-  require 'fancybox2/rails'
-end
+require 'fancybox2/rails' if defined?(Rails)
